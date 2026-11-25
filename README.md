@@ -8,7 +8,7 @@ The search runs on your computer or your own GPU server. You get **24 words** an
 
 1. **Search.** Find 12 BIP39 words (1–12) whose address contains your text. Each character makes the search ~64× longer.
 2. **Your key.** Words 13–24 come from the OS random generator. They never leave your computer.
-3. **Key change.** Your wallet (TON Connect) sends one message: 0.01 GRAM + deploy + key change. After it, words 1–12 control nothing.
+3. **Key change.** Your wallet (TON Connect) sends one message:100000 GRAM + deploy + key change. After it, words 1–12 control nothing.
 4. **Import** the 24 words into Telegram.
 
 Only the public key of words 13–24 and one signature go to the network.
